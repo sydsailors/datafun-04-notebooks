@@ -27,8 +27,8 @@ to get these projects running on your machine.
 ## Custom Project
 
 ### Dataset
-This project uses the `diamond` dataset.
-This dataset contains information of approximately 54,000 diamonds.
+This project uses the `diamonds` dataset.
+This dataset contains information on approximately 54,000 diamonds.
 Each record represents a single diamond and includes physical measurements, pricing, quality-related features.
 
 Key variables include:
@@ -58,17 +58,17 @@ invalid dimension values (zeros) were removed to improve data quality and analyt
 - Data cleaning experiments: removed diamonds with 0-valued physical dimensions
 - Descriptive statistics on `price`
 - Correlation analysis: performed to identify relationships between numerical values
-- Visualization expierments: created a heat map, scatter plot, and box plot to expose trends
+- Visualization experiments: created a heat map, scatter plot, and box plot to expose trends
 
 ### Results
 The original dataset was cleaned and prepared for analysis.
 
 Price statistics included a mean of $3,932.80, standard deviation of $3989.40, minimum and maximum of $326 and $18,823, and a range of $18,497.
 
-There is a strong, nonlinear relationship between `carat` and `price.
+There is a strong, nonlinear relationship between `carat` and `price`.
 Larger diamonds have significantly higher prices.
 
-Price distributions were heavily right-skewed
+Price distributions were heavily right-skewed.
 
 Physical dimensions were highly correlated with carat, confirming that carat effectively captures size-related variation in the dataset.
 
