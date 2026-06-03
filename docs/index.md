@@ -28,7 +28,7 @@ to get these projects running on your machine.
 
 ### Dataset
 This project uses the `diamonds` dataset.
-This dataset contains information on approximately 54,000 diamonds.
+This dataset contains information on approximately 54,000 diamond records.
 Each record represents a single diamond and includes physical measurements, pricing, quality-related features.
 
 Key variables include:
