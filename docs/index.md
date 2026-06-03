@@ -62,14 +62,10 @@ invalid dimension values (zeros) were removed to improve data quality and analyt
 
 ### Results
 The original dataset was cleaned and prepared for analysis.
-
 Price statistics included a mean of $3,932.80, standard deviation of $3989.40, minimum and maximum of $326 and $18,823, and a range of $18,497.
-
 There is a strong, nonlinear relationship between `carat` and `price`.
 Larger diamonds have significantly higher prices.
-
 Price distributions were heavily right-skewed.
-
 Physical dimensions were highly correlated with carat, confirming that carat effectively captures size-related variation in the dataset.
 
 ### Interpretation
