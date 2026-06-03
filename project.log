@@ -1052,3 +1052,13 @@ z      0.953387  0.094924  0.150929  0.861249  0.970772  0.952006  1.000000
 2026-06-03 13:39:01 | INFO | EDA-NB | ========================
 2026-06-03 13:39:01 | INFO | EDA-NB | Executed successfully!
 2026-06-03 13:39:01 | INFO | EDA-NB | ========================
+2026-06-03 13:40:51 | INFO | EDA-NB | ---- Creating Scatter Plot to see Relationships ------
+2026-06-03 13:40:51 | INFO | EDA-NB | ----   Use clean dataframe ---------------------------
+2026-06-03 13:40:51 | INFO | EDA-NB | ----   Set x to carat --------------------------------
+2026-06-03 13:40:51 | INFO | EDA-NB | ----   Set y to price --------------------------------
+2026-06-03 13:40:51 | INFO | EDA-NB | ----   Set the hue (color mapping) to the group column --
+2026-06-03 13:41:09 | INFO | EDA-NB | ---- Creating Scatter Plot to see Relationships ------
+2026-06-03 13:41:09 | INFO | EDA-NB | ----   Use clean dataframe ---------------------------
+2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set x to carat --------------------------------
+2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set y to price --------------------------------
+2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set the hue (color mapping) to the group column --
