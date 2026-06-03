@@ -1062,3 +1062,10 @@ z      0.953387  0.094924  0.150929  0.861249  0.970772  0.952006  1.000000
 2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set x to carat --------------------------------
 2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set y to price --------------------------------
 2026-06-03 13:41:09 | INFO | EDA-NB | ----   Set the hue (color mapping) to the group column --
+2026-06-03 14:14:22 | INFO | EDA-NB | --------------- Manual statistics ---------------
+2026-06-03 14:14:22 | INFO | EDA-NB | Price Statistics (using numpy):
+2026-06-03 14:14:22 | INFO | EDA-NB |   Mean: $3932.80
+2026-06-03 14:14:22 | INFO | EDA-NB |   Std Dev: $3989.40
+2026-06-03 14:14:22 | INFO | EDA-NB |   Min: $326.00
+2026-06-03 14:14:22 | INFO | EDA-NB |   Max: $18823.00
+2026-06-03 14:14:22 | INFO | EDA-NB |   Range: $18497.00

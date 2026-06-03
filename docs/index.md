@@ -27,16 +27,53 @@ to get these projects running on your machine.
 ## Custom Project
 
 ### Dataset
-(Describe the dataset you used.)
+This project uses the `diamond` dataset.
+This dataset contains information of approximately 54,000 diamonds.
+Each record represents a single diamond and includes physical measurements, pricing, quality-related features.
+
+Key variables include:
+- Physical dimensions of the diamond
+  - `x`: length
+  - `y`: width
+  - `z`: depth
+- `carat`: carat weight
+- `cut`
+- `color`
+- `clarity`
+- `depth`
+- `table`
+- `price`
+
 
 ### Signals
-(Describe the signals used and/or created)
+The primary signal of interest for this analysis is `price`.
+Several explanatory signals were examined including:
+- `carat`: weight of the diamond
+- Physical dimensions (`x`, `y`, `z`): describes the diamond's shape and size
+- `cut`: categorical variable, used for group-based comparisons
+Additional derived signals included filtered versions of the dataset where
+invalid dimension values (zeros) were removed to improve data quality and analytical accuracy.
 
 ### Experiments
-(Describe your modification experiments)
+- Data cleaning experiments: removed diamonds with 0-valued physical dimensions
+- Descriptive statistics on `price`
+- Correlation analysis: performed to identify relationships between numerical values
+- Visualization expierments: created a heat map, scatter plot, and box plot to expose trends
 
 ### Results
-(Describe the results you observed)
+The original dataset was cleaned and prepared for analysis.
+
+Price statistics included a mean of $3,932.80, standard deviation of $3989.40, minimum and maximum of $326 and $18,823, and a range of $18,497.
+
+There is a strong, nonlinear relationship between `carat` and `price.
+Larger diamonds have significantly higher prices.
+
+Price distributions were heavily right-skewed
+
+Physical dimensions were highly correlated with carat, confirming that carat effectively captures size-related variation in the dataset.
 
 ### Interpretation
-(Describe what this means for your system - provide the business intelligence you gained)
+From a business intelligence perspective, the results indicate that `carat` is the dominant driver of diamond price.
+`cut` quality serves as a secondary differentiator that refines `price` with similar size ranges.
+This suggests pricing models and decision systems should prioritize `carat` as the primary predictor.
+Then, incorporate `cut` and physical proportions to improve accuracy.
