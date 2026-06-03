@@ -23,3 +23,20 @@ to get these projects running on your machine.
   - [RESOURCES.md](./module/RESOURCES.md)
   - [seaborn-datasets.md](./module/seaborn-datasets.md)
   - [TROUBLESHOOTING.md](./module/TROUBLESHOOTING.md)
+
+## Custom Project
+
+### Dataset
+(Describe the dataset you used.)
+
+### Signals
+(Describe the signals used and/or created)
+
+### Experiments
+(Describe your modification experiments)
+
+### Results
+(Describe the results you observed)
+
+### Interpretation
+(Describe what this means for your system - provide the business intelligence you gained)
